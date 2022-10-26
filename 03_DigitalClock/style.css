@@ -1,0 +1,18 @@
+body {
+    background: black;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: aqua;
+    font-size: 60px;
+    font-family: roboto,cursive,Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+
+}
+
+
+
