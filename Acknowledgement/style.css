@@ -1,0 +1,45 @@
+@import "compass/css3";
+ @import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:900);
+ @import url(https://fonts.googleapis.com/css?family=Gudea);
+ *, *::before, *::after {
+	 -webkit-box-sizing: border-box;
+	 -moz-box-sizing: border-box;
+	 box-sizing: border-box;
+}
+ body {
+	 background-color: #4da2b3;
+}
+ .container {
+	 margin: 0 auto;
+	 max-width: 40em;
+	 text-align: justify;
+}
+ i {
+	 color: white;
+}
+ h3 {
+	 font-family: "Cinzel Decorative", Georgia, serif;
+	 font-size: 2em;
+	 text-align: center;
+}
+ p {
+	 font-family: "Gudea", sans-serif;
+}
+ .quote {
+	 font-family: Georgia, serif;
+	 font-size: 2em;
+	 font-style: italic;
+	 color: white;
+	 float: left;
+	 text-align: right;
+	 margin-right: 0.5em;
+	 max-width: 9.5em;
+	 padding: 0.5em;
+}
+ .quote::before {
+	 content: "\201C";
+}
+ .quote::after {
+	 content: "\201D";
+}
+ 
